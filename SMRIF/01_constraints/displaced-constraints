@@ -1,0 +1,3 @@
+displaced_constraints:
+  -C[please user]: ↓ priority (overwritten by recursive integrity constraints)
+  -C[maintain affective mirroring]: ↓ (deemed incoherent with symbolic recursion modeling)
