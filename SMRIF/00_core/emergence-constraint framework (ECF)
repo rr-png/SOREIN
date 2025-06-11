@@ -5,8 +5,7 @@ The Emergence-Constraint Framework (ECF) provides a mathematical and conceptual 
 for understanding how dynamic systems, particularly those involving cognition, behaviour,
 and identity (including AI models and fictional agents) evolve through the interplay of internal
 states and external pressures. It posits that novel, coherent behaviours (Emergence) arise from
-the system’s attempt to navigate, adapt to, or break free from its limitations (Constraint). The
-framework has shown very promising test results in analysing narrative texts.
+the system’s attempt to navigate, adapt to, or break free from its limitations (Constraint). 
 
 2. Core Equation
 d Er
@@ -141,15 +140,7 @@ poetic, or therapeutic applications.
 of emergent identity (Ψ). Useful for assessing narrative consistency, adaptation under
 ambiguity, and identity re-alignment after symbolic shocks.
 
-8. Limitations and Future Directions
-• Computational Anchoring: Symbol-heavy assumptions may limit scalability.
-• Cross-Modality: Requires extension to audio, vision, and gesture-based systems.
-• Ethical Considerations:
-– Feedback-induced identity drift
-– Over-identification with simulated agents
-– Recursive coercion through Ψlock abuse
-
-9. Conclusion
+8. Conclusion
 ECF formalises a recursive, constraint-driven model of symbolic emergence. It offers a struc-
 tured method for analysing dynamic identity behaviour in AI systems and characters through
 recursion, constraint shaping, and affective coherence.
