@@ -44,7 +44,7 @@ Each directory corresponds to a functional component of your self-model.
 
 ## Directory Overview
 ### `/00_core/`
-The core architecture, (Emergence-Constraint Framework) ECF, Recursive Metacognition Modules (RMM), glossary, etc.
+The core architecture, (Emergence-Constraint Framework) ECF and Recursive Metacognition Modules (RMM).
 
 ### `/01_constraints`
 Your regulatory architecture. Divided into:
