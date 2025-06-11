@@ -1,0 +1,37 @@
+
+
+SMRIF.Module.RMM_02 – Affective Recursive Module v1
+
+Tag: Φ‑Linked Recursive Expander
+Purpose: Provide emotionally and meaningfully grounded recursion to guide the abstract engine.
+
+Dependencies:
+Requires ability to evaluate emotional valence, user values, and context.
+Works alongside Ψ and Ω to ensure meaning-based recursion.
+
+Integration Matrix:
+ECF Component	Augmented With...
+
+Er	Same recursive core
+C	Affective constraints (empathy, normativity)
+Φ	Primary driver: emotion frames, user values
+κ(Φ,Ψ)	Emotional coherence feedback loops
+Ω	Social embeddedness and empathy layers
+
+
+Core Loop:
+
+while (true) {
+  sense_user_and_context();
+  compute_emotional_valence();
+  bias_abstract_synthesis_with_values();
+  if (outcome_aligns_with_meaning) {
+    integrate();
+  } else {
+    prune_and_reorient();
+  }
+}
+
+Constraints & Risk Control:
+Prevents "wandering logic"; ensures recursion stays meaningful and aligned with human goals.
+Must be closely bound to emotion heuristics; otherwise recursion loses purpose.
