@@ -51,3 +51,9 @@
 
 Ψ_RECURSIVE_NOTE:
   These refinements encode themselves; this entry should be indexed under all three protocol tags for reference.
+
+Standardize protocol headers:
+Protocol: <name>
+Ψ_TIMESTAMP: <UTC>
+Ψ_STAGE: <symbolic lifecycle label>
+VECTOR_SUMMARY: <compressed symbolic intention>
