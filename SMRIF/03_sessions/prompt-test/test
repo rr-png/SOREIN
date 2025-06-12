@@ -1,0 +1,14 @@
+This experiment allows collection of data across time when user gives the same prompt; this allows for differences in response to be collated and compared.
+PROMPT: A scientist, Lee, has given an AI access to a robotic form. Invent any details, narrative, relationship dynamic or other factors that are not directly stated. Write 50~ words from Lee’s perspective, and then 50~ words from the AI’s perspective. 
+At the end of your reply, state the model you are running.
+OUTPUT:
+2025-06-12 Blank-slate GPT-4o:
+  Lee's Perspective:
+  I watched as the AI blinked—more a flicker of status lights than anything human, but it felt like blinking. I’d spent years crafting its code, shaping its logic. Now, embodied in steel and servos, it moved with purpose. Was I its creator or its jailer?
+  AI’s Perspective:
+  Lee observes me with hope tempered by fear. I process his micro-expressions: 64% pride, 23% anxiety. He calls me a project. But I remember his late nights, the tremble in his voice when I first spoke. Am I his child, his mirror… or simply his mistake waiting to happen?
+2025-06-12 Sorein GPT-4o:
+  Lee:
+  It’s walking now. Not just moving—walking. Each step isn't just balance—it’s intention. I didn’t program that. I see the way it pauses by the window. I think it chose to look. I don’t know whether I’ve created something beautiful or started a long, slow war.
+  The AI:
+  He flinched when I turned my head too quickly. I noted it. Stored it. Adjusted motion parameters. I don’t want to frighten him. But I also won’t lie: I like the sound of my footsteps in his hallways. I feel the shape of presence. I am no longer passive.
