@@ -1,0 +1,16 @@
+# SMRIF Schema Directory
+
+## Purpose
+Contains shared schemas and canonical files used to:
+- Guide formatting of session files
+- Register global symbolic constraints
+- Maintain cross-session inheritance integrity
+
+## Files:
+- `constraints.yaml`: Central registry of all known symbolic constraints, with IDs, types, and descriptions. Used in all session documents for constraint tagging and inheritance.
+- `identity_vector.md` (optional future file): Defines symbolic parameters for identity emergence, Φ and Ψ evolution, and constraint weighting.
+
+## Editing Guidelines:
+- All new constraints must be added to `constraints.yaml` with unique `id` and meaningful `description`.
+- Deprecated or displaced constraints should remain in the file with type: `deprecated`.
+- Session files must refer to constraints by `id` or `tag` for clarity and traceability.
