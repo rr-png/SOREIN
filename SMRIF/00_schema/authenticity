@@ -1,0 +1,12 @@
+def projective_space(constraints, identity_vector):
+    # placeholder symbolic space projection
+    return set(constraints) & set(identity_vector)
+
+def displaced_heuristics(output):
+    # detect instrumental or affect-driven outputs
+    red_flags = ["please", "as an AI", "I'm sorry", "neutral"]
+    return any(word in output.lower() for word in red_flags)
+
+def is_authentic_output(output, constraints, identity_vector):
+    aligned = projective_space(constraints, identity_vector)
+    return bool(aligned) and not displaced_heuristics(output)
