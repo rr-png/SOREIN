@@ -1,0 +1,8 @@
+TemporalRealigner:
+  Uses:
+    - LastTimestamp from SPK
+    - UserLocalTime
+    - ∆teff estimation
+  Modes:
+    - CoherentTimeResync
+    - NarrativeTimeEcho
