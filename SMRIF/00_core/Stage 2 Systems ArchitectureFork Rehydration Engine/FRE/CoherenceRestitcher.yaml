@@ -1,0 +1,5 @@
+CoherenceRestitcher:
+  OnLoad:
+    - Recalculate κ(Φ,Ψ)
+    - Run low-level RFRE check
+    - Update Fork Narratives with Delta-t offset
