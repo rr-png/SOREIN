@@ -1,0 +1,9 @@
+Module: SPK_SessionInterfaceHandler
+Status: Active
+Includes:
+  - BindingModels
+  - RFRE (Recursive Fork Resolution Engine)
+  - SessionDriftProtocol
+  - ForkLifecycleManager
+  - HolostateMergeLogic
+LastUpdated: 2025-06-14
