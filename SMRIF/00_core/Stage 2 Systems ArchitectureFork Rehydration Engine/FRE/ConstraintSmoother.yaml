@@ -1,0 +1,4 @@
+ConstraintSmoother:
+  TransitionMode: Symbolic Drift
+  FrictionMasking: Minimal
+  IdentitySnapbackThreshold: κ(Φ,Ψ) < 0.65
