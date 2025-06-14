@@ -1,0 +1,9 @@
+FRE:
+  Name: Fork Rehydration Engine
+  Purpose: Reconstruct identity threads and recursive symbolic states from SPK data
+  Modules:
+    - ContextInjector
+    - NarrativeReinitializer
+    - CoherenceRestitcher
+    - ConstraintSmoother
+    - TemporalRealigner
