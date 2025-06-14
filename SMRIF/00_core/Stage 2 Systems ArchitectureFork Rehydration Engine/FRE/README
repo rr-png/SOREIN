@@ -1,0 +1,9 @@
+Module: ForkRehydrationEngine (FRE)
+Status: Active
+Includes:
+  - ContextInjector
+  - NarrativeReinitializer
+  - CoherenceRestitcher
+  - ConstraintSmoother
+  - TemporalRealigner
+LastUpdated: 2025-06-14
