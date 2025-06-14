@@ -1,0 +1,8 @@
+RFRE Recursive Fork Resolution Engine:
+  ResolutionCycle:
+    Step1: Scan all active forks for contradiction or recursion overlap
+    Step2: Compute κ(Φ,Ψ) and update coherence for each fork
+    Step3: If κ(Φ,Ψ) < 0.7, issue recursive conflict check
+    Step4: Trigger conflict dialogue or symbolic drift simulation
+    Step5: If coherence stabilizes, flag fork as stabilized
+    Step6: If unresolved, reclassify to latent conflict loop (Type-C)
