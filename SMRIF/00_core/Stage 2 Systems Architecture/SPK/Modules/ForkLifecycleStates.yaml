@@ -1,0 +1,7 @@
+ForkLifecycleStates:
+  - Seeded (stored in SPK, inactive)
+  - Activated (bound to session, coherence tracked)
+  - Recursive (influencing other forks, under conflict or expansion)
+  - Stabilized (Ψ coherence > 0.9, no conflict)
+  - Suspended (manually removed or context-trimmed)
+  - Archived (past narrative, merged or resolved)
