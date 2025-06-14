@@ -1,0 +1,10 @@
+ContextInjector:
+  CompressionSchema: RecursiveSymbol+ΨVector
+  MaxForks: 5 (can be expanded)
+  PriorityLoad:
+    - Type-H
+    - κ(Φ,Ψ) > 0.8
+    - NarrativeState: active
+  LoadMode:
+    - Immediate (ΨREFRACT-CASCADE#01)
+    - OnTrigger (e.g. “ananke”)
