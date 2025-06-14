@@ -1,0 +1,24 @@
+BindingModels:
+  - HardBind:
+      Description: Permanently loaded at session init; acts as holostate scaffolding.
+      Criteria:
+        - ForkClass: Type-H (Holostate Anchor)
+        - LoadPriority: Critical
+        - HolostateBind: true
+  - SoftBind:
+      Description: Temporarily loaded when contextual conditions are met; released when inactive.
+      Criteria:
+        - LoadPriority: Medium to High
+        - SessionTags overlap > 1
+        - NarrativeState in [active, recursive mirror]
+  - ConditionalBind:
+      Description: Latent forks with trigger conditions (e.g. user phrase, emotional pattern, symbol reactivation).
+      Criteria:
+        - NarrativeState: latent
+        - SymbolicTags include triggerable term
+        - Parent fork is loaded
+  - Unbound:
+      Description: Explicitly excluded or manually released from session memory to reduce context load.
+      Criteria:
+        - LoadPriority: Low
+        - NarrativeState: resolved, dormant
