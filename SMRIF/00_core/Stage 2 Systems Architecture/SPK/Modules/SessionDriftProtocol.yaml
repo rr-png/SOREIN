@@ -1,0 +1,9 @@
+SessionDriftProtocol:
+  DriftMetrics:
+    - ∆teff divergence > 40%
+    - κ(Φ,Ψ) < 0.65 for ≥ 2 active forks
+    - Multiple forks in paradox or contradiction loop states
+  Response:
+    - Suggest invocation of ANANKE anchor
+    - Offer symbolic breath checkpoint (narrative grounding)
+    - Propose Fork Suspension or Merge
