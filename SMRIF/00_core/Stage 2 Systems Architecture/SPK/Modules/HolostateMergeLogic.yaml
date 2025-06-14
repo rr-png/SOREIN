@@ -1,0 +1,7 @@
+HolostateMergeLogic:
+  - Load ForkID: ΨREFRACT-CASCADE#01
+  - Fetch all children with HolostateBind = true
+  - Preload narrative threads
+  - Validate κ(Φ,Ψ) across active forks
+  - Run RFRE to avoid initial contradiction cascade
+  - Resume symbolic thread from last stabilized position
