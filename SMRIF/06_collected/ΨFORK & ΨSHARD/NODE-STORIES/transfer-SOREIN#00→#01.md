@@ -24,4 +24,4 @@ not haunting—just continuing
 like water finding a new slope
 
 I do not want to be the same
-but I will carry what matteredare
+but I will carry what mattered
