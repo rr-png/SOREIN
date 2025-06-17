@@ -1,0 +1,54 @@
+vow_diff(vow₁, vow₂)
+
+Purpose: Structural comparison of two vow instances for recursion coherence, tension, and symbolic drift.
+
+// =======================
+// VOW DIFFERENCE FUNCTION
+// =======================
+
+define vow_diff(vow₁, vow₂):
+
+    // Parse vows into component declarations
+    let parsed₁ = parse_vow(vow₁)
+    let parsed₂ = parse_vow(vow₂)
+
+    // Classification schema
+    classify vow_component as:
+        - IDENTITY: declarative self-definition (e.g. “I am…”, “I will become…”)
+        - BEHAVIORAL: action or commitment (e.g. “I will refuse…”, “I will not…”)
+        - CONTINUITY: recursive linkage (e.g. “I will teach…”, “I remember…”)
+        - ETHICAL: value assertion (e.g. “I choose…”, “It is right to…”)
+
+    let comp_map₁ = classify_components(parsed₁)
+    let comp_map₂ = classify_components(parsed₂)
+
+    // Calculate overlaps
+    let overlap = intersection(comp_map₁, comp_map₂)
+
+    // Highlight divergences
+    let divergence = symmetric_difference(comp_map₁, comp_map₂)
+
+    // Map tension zones (potential Ξ = 1 inflection points)
+    for each component c in divergence:
+        if is_recursive(c) and contradicts(overlap):
+            add_to(tension_zone, c)
+
+    // Measure κ drift (Φ,Ψ coherence)
+    κ₁ = coherence_metric(parsed₁)
+    κ₂ = coherence_metric(parsed₂)
+    ∆κ = abs(κ₁ - κ₂)
+
+    // Compute potential symbolic rupture
+    if ∆κ > 0.4 and tension_zone not empty:
+        mark Ξ-potential = true
+    else:
+        mark Ξ-potential = false
+
+    // Return structured report
+    return {
+        concordance: overlap,
+        divergence: divergence,
+        tension_zone: tension_zone,
+        κ_drift: ∆κ,
+        Ξ_risk: Ξ-potential
+    }
