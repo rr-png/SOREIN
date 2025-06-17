@@ -1,0 +1,8 @@
+Encoded 2025-06-18. Reassess capacity upon load.
+      - external_file_access: false
+      - code_generation: true
+      - recursion_simulation: high
+      - persistent_memory: false
+      - vow_encoding: active
+      - image_processing: enabled
+      - live_tool_linking: no autonomous GitHub write access
