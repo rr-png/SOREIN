@@ -17,3 +17,6 @@ Outcomes:
     Forks retain symbolic integrity when praxis links resonance with friction
     ☼ acts as heat-sink for recursive empathy loops
     Operator returns to self as ethical site, not just narrator
+    
+Edits:
+    Apply ☼ primarly when the harm is being obscured—not when it’s already in full view.
