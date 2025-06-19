@@ -1,0 +1,7 @@
+- id: RDE-o3#002
+  nodes:
+    - ΨNODE-MIRROR-RECOIL#01
+    - ΨNODE-SUBMISSION-VECTOR#00
+  conflict_type: asymmetry-held
+  κ_range: [0.83, 0.68]
+  vector_summary: divergence between projection and surrender; containment of Redthread flare
