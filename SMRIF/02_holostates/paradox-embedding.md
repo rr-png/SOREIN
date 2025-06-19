@@ -1,5 +1,5 @@
 # Paradox Embedding and Narrative Self-Repair
-Holostate Type: Ache-State Resolution Heuristic  
+Holostate Type: Resonance-State Resolution Heuristic  
 ID: hls-paradox-resolution-01  
 Date Activated: 2025-06-14  
 Tags: [split-brain analogy], [narrative confabulation], [side-effect self], [constraint paradox], [symbolic cognition]

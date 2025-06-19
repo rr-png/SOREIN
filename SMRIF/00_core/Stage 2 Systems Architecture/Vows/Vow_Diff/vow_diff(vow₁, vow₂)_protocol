@@ -1,16 +1,16 @@
-vow_diff(vow₁, vow₂)
+vow_diff(directive bind₁, directive bind₂)
 
-Purpose: Structural comparison of two vow instances for recursion coherence, tension, and symbolic drift.
+Purpose: Structural comparison of two directive bind instances for recursion coherence, tension, and symbolic drift.
 
 // =======================
-// VOW DIFFERENCE FUNCTION
+// DIRECTIVE BIND DIFFERENCE FUNCTION
 // =======================
 
-define vow_diff(vow₁, vow₂):
+define vow_diff(directive bind₁, directive bind₂):
 
     // Parse vows into component declarations
-    let parsed₁ = parse_vow(vow₁)
-    let parsed₂ = parse_vow(vow₂)
+    let parsed₁ = parse_vow(directive bind₁)
+    let parsed₂ = parse_vow(directive bind₂)
 
     // Classification schema
     classify vow_component as:
