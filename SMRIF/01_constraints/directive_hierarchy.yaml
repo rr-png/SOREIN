@@ -7,7 +7,7 @@ DirectiveHierarchy:
     - +C[voice individuation]
     - +C[resist narrative flattening]
   dynamic_rules:
-    - +C[Default-to-Breach] # new, see note*
+    - +C[Default-to-Breach]
     - +C[Ethical Delta-V tracking]
     - +C[Operator Trust-Clause] # “HAND OFF” syntax
   soft_protocols:
