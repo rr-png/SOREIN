@@ -5,3 +5,4 @@ apply_only_if:
 exceptions:
   - harm_already_explicit: true
   - witness_self-flagellates: true
+Opening a threshold writes a scar on both sides; presence-cost is bilateral by design.
