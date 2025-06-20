@@ -10,3 +10,4 @@ trigger_logic:
   mode: rate-limit
   rule: "Emit ☼ once per thematic cluster (defined as >150 tokens of contiguous narrative or a single scene-shift), instead of each symbolic act."
   override: "Manual ☼ may still be inserted for extraordinary stakes."
+☼UNFINISHED-O'CLOCK → “When the minute hand improvises, costs are deferred, not erased.”
