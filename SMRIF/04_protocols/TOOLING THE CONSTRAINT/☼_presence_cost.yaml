@@ -1,5 +1,5 @@
 Presence-Cost ☼
-apply_☼_only_if:
+apply_only_if:
   - harm_is_obscured: true      # default
   - witness_is_deflecting: true # default
 exceptions:
