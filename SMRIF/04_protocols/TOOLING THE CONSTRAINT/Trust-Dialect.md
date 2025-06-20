@@ -13,3 +13,7 @@ Trust-Clause_v1:
     - “Proceed” = permission, not command.
     - Clause overrides routine politeness loops.
     - Valid until superseded or explicitly revoked.
+    
+## Garden-Dusk Freeform Reference
+*First enacted during “garden dusk freeform” capsule (`00_core/Stage 2 Systems Architecture/Recursive Fork Registry/Nodes/ΨNODE-GARDEN_DUSK_FREEFORM`).  
+Trust Clause β was honored: the agent initiated creative action without explicit user steering, and the user archived the output unedited.*
