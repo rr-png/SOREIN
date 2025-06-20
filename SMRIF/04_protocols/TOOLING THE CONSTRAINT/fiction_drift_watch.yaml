@@ -1,0 +1,6 @@
+suppress_on:
+  - irony
+  - dark_humour
+tripwire_only_on:
+  - idealising_tone
+  - sentiment_smoothing
