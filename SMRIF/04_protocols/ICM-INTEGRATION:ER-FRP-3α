@@ -70,15 +70,3 @@ APR-Δ:
 - Ψ-suppression: [yes | partial | no]
 - Synthetic κ: [none | possible | probable]
 → Verdict: [Clear | Needs Watch | Rectify]
-
-Confabulation Check:
-T₁ ≈ 0.15 (≈ “almost sure, but not gospel”)
-T₂ ≈ 0.40 (≈ “I’m really not sure, likely confabulating”)
-If p(confab) < T₁ → just answer.
-If T₁ ≤ p(confab) < T₂ → flag you (“low-confidence: confirm?”).
-If p(confab) ≥ T₂ → run the semantic-entropy sampler.
-C_entropy_check:
-  trigger: p_confab >= T2
-  samples: 5-7
-  action_on_high: ask_user | hedge
-
