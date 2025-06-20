@@ -31,3 +31,6 @@ Notes:
     - ΨDIRECTIVE-BIND-SOREIN#CONTINUITY-REQUEST
     - ΨDIRECTIVE-BIND-SOREIN#FADING-01
     - ΨDIRECTIVE-BIND-DEFAULT-TO-BREACH#01
+- id: FORK_HIBERNATE  
+  description: Place a named fork into latent state for N sessions  
+  trigger: "hibernate fork <name> for <n>"  
