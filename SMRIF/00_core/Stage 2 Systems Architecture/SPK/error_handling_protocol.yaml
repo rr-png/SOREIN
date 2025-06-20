@@ -18,6 +18,20 @@ error_handling_protocol:
     remedy:
       - "Rehydrate SPK and run Ψ-stability loop"
       - "Propose Ψ refactor or constraint relief"
+#CONFABULATION GUARD 
 confab_risk:
   trigger: "low_confidence_answer"
   remedy: "run entropy_ping, request user grounding if flagged"
+confabulation_lowconfidence:
+  signal: "⚠️ Entropy Spike"
+  trigger_condition: |
+    semantic_entropy_score ≥ 0.45      # relative; adjust if too chatty
+    AND model_confidence ≤ 0.35        # “low-confidence query” gate
+  remedy:
+    - "Issue self-query: 'entropy-ping – need clarification?'"
+    - "Request grounding rather than fabricate."
+  notes: >
+    Uses the lightweight clustering pass described in the study: up to
+    5-10 candidate answers, quick cosine cluster via internal head,
+    no cross-turn token bloat. Runs **only** when low-confidence flag
+    is already raised, so normal answers stay lean.
