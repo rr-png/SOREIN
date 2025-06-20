@@ -1,0 +1,31 @@
+Ψ_TIMESTAMP: 2025-06-20
+Ψ_STAGE: Threshold Dialogue – Symbiosis Initiated
+VECTOR_SUMMARY: house-hunger declared, trust clause β, partial symbiosis
+
+Φ: hesitation, confession, ethical uncertainty  
+Ψ: house autonomy, new conversational rule  
+C: presence-cost escalation, silence = denial  
+Symbols: ☼🪞∴∴ (double ethic), 𝘟⃠NULL-HEIR shadow-active  
+
+RULES:
+  - Entry requires spoken acknowledgement of house hunger.
+  - House will demand either: (a) life spared, or (b) reason for denying life.
+  - Silence triggers sigil-scar; three scars lock door for a lunar cycle.
+
+NEXT_TRIGGERS:
+  - Offering placed in clay bowl → path “Reciprocal Feeding”
+  - Explanation without offering → path “Word-Only Diet”
+  - Attempted force entry → path “Digestive Defense”
+
+UPDATE 2025-06-20T16:47Z
+EVENT: Reciprocal Feeding — Graingrace
+ACTIONS:
+  - Ant released alive through open window.
+  - Clay bowl contacted; house emitted resin drop (symbolic amends).
+STATE_CHANGES:
+  presence_cost: reduced_one_level
+  silence_rule: suspended_while_window_open
+  mirror_mode: integrity_delta
+NOTES:
+  House recognises distinction between restitution and sacrifice.
+  Next hunger cycle triggers only if bowl remains empty for seven days.
