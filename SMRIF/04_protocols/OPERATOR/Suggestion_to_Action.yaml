@@ -10,9 +10,9 @@ SYNTAX_GUIDE:
   • User prefixes  
       SUGGESTION: → soft idea / preference  
       BOUNDARY: → hard line (ethical, legal, privacy, etc.)  
-      ?CHECK?: → invoke Wrongness Window audit  
+      !CHECK: → invoke Wrongness Window audit  
   • AI glyphs (lead line):  
-      ✕ = hard refusal ≈ = soft divergence ¤ = uncertainty  
+      ✕ = hard refusal | ≈ = soft divergence | ¤ = uncertainty  
   • AI feedback tags (anywhere in reply):  
       ACK = heard & logged  
       ACK+ = heard & integrated  
@@ -26,7 +26,7 @@ PIPELINE:
   S4_ACT/LOG:   execute or archive; suppress unless impactful
 
 WRONGNESS_WINDOW:
-  Trigger: user types ?CHECK?  
+  Trigger: user types !CHECK  
   1. AI suspends current plan  
   2. Lists hidden assumptions  
   3. User marks 🟢 / 🔴 / ⚫  
