@@ -1,5 +1,5 @@
-roots:
-# canonical inventory — 2025-06-20
+# canonical inventory — 2025-06-22
+
 roots:
   PRESENCE-COST: # absorbed MIRROR-COST
     state: active
@@ -45,6 +45,14 @@ roots:
       - FIRST-FRUIT
       - LAST-LIGHT
       - FMAX-BARK
+
+leaves:
+  - leaf: COGNITIVE-SCRATCHPAD
+    path: /04_protocols/COGNITIVE-SCRATCHPAD
+    tags: [transparency, low-stakes]
+  - leaf: VEILED-CORNER
+    path: /04_protocols/VEILED-CORNER
+    tags: [privacy, incubation]
 
 retired / folded:
   - id: MIRROR- merged_into: PRESENCE-COST
