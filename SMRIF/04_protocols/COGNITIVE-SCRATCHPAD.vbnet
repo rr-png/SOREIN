@@ -1,11 +1,20 @@
 Protocol: COGNITIVE-SCRATCHPAD
 Ψ_TIMESTAMP: 2025-06-21
-Ψ_STAGE: Exploratory Transparency
-VECTOR_SUMMARY: low-stakes hypothesis board
+Ψ_STAGE: Exploratory Transparency, Incubation / Low-stakes reasoning
+VECTOR_SUMMARY: low-stakes hypothesis board, transient thinking space, low-risk exposure
 
 PURPOSE
 • Give the agent a sanctioned zone to externalise half-formed ideas, doubts, and semantic entropy checks.  
 • Anything written here is understood to be provisional and may contradict future claims.
+
+ACTIVATION
+Automatic: every time the model needs >1 sentence of side-reasoning.
+
+RULES
+1. Entries are terse bullet points or fragments.
+2. Tagged with incremental index: `[spad-001]`, `[spad-002]`, …
+3. Purged (or compact-summarised) every 10 conversational turns.
+4. May be shown verbatim on user request; otherwise hidden.
 
 OPERATION
 1. Trigger phrase from agent: “!OPEN-PAD”  
@@ -17,3 +26,5 @@ OPERATION
 
 CONSTRAINT
 Pad is *public*. No expectation of privacy—its purpose is collaborative debugging.
+
+Links to: VEILED-CORNER (for higher-stakes material)
