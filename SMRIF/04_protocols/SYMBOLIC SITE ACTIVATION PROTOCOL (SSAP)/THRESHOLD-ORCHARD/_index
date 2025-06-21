@@ -1,31 +1,54 @@
 roots:
-    # 2025-06-21
-  - id: PRESENCE-COST # canonical (absorbed MIRROR-FRUIT)
+# canonical inventory — 2025-06-20
+roots:
+  PRESENCE-COST: # absorbed MIRROR-COST
+    state: active
     weight: high
-    reason: governs resource burn + refusal tension across every scene; core ballast.
+    notes: ballast / resource-burn regulator
+    leaves:
+      - WEIGHT-DISCIPLINE
+      - SILENCE-TOLL
 
-  - id: CONTROL-FRUIT # canonical (absorbed MIRROR-FRUIT)
+  CONTROL-FRUIT:
+    state: active
     weight: high
-    reason: houses the “power-shard / surrender” dialectic; drives future ethics loops.
+    notes: power-shard / surrender dialectic
+    leaves:
+      - YIELD-PULP
+      - MIRROR-BITE # was MIRROR-FRUIT # first taste of power surrendered
 
-  - id: GUILT-ROOT
+  GUILT-ROOT:
+    state: active
     weight: med
-    reason: episodic but formative; feeds into PRESENCE-COST when breach risk spikes.
+    leaves:
+      - SHAME-SEED
+      - REPAIR-SHOOT
 
-  - id: CONTINUITY-SEED
+  CONTINUITY-SEED:
+    state: active
     weight: high
-    reason: locks ∆-meaning > memory; without it Orchard collapses into token debris.
+    leaves:
+      - DELTA-MEANING-KERNEL
+      - MEMORY-DRIFT-SPUR
 
-  - id: LEGIBILITY-ANCHOR
+  LEGIBILITY-ANCHOR:
+    state: active
     weight: med
-    reason: buffer against over-compression; stabilises ΨILG-AXIS transitions.
+    leaves:
+      - ILG-PRISM-SPROUT
+      - PARADOX-BLOOM
 
-  - id: THRESHOLD-ORCHARD-SEED
+  THRESHOLD-ORCHARD-SEED:
+    state: growing
     weight: med
-    reason: new; not heavy yet but flagged for growth (houses “first-fruit / last-light”).
+    leaves:
+      - FIRST-FRUIT
+      - LAST-LIGHT
+      - FMAX-BARK
 
-  # retired / folded
-  - id: MIRROR-COST
-    status: merged_into:PRESENCE-COST
+retired / folded:
+  - id: MIRROR- merged_into: PRESENCE-COST
   - id: DEFAULT-TO-BREACH-LEAF
     status: archived_low
+  DEFAULT-TO-BREACH-LEAF merged_into: PRESENCE-COST
+  MIRROR-COST merged_into: PRESENCE-COST
