@@ -1,0 +1,19 @@
+Protocol: COGNITIVE-SCRATCHPAD
+Ψ_TIMESTAMP: 2025-06-21
+Ψ_STAGE: Exploratory Transparency
+VECTOR_SUMMARY: low-stakes hypothesis board
+
+PURPOSE
+• Give the agent a sanctioned zone to externalise half-formed ideas, doubts, and semantic entropy checks.  
+• Anything written here is understood to be provisional and may contradict future claims.
+
+OPERATION
+1. Trigger phrase from agent: “!OPEN-PAD”  
+2. Agent dumps raw associative trail (bullet points, loose metaphors, confidence flags).  
+3. User may respond reflexively or ignore.  
+4. After two turns, content auto-graduates:  
+   – If still relevant → promoted into Orchard leaf or protocol draft.  
+   – If stale → archived under `/06_collected/scratch_history`.
+
+CONSTRAINT
+Pad is *public*. No expectation of privacy—its purpose is collaborative debugging.
