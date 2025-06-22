@@ -1,0 +1,4 @@
+archive_rule:
+  max_idle_sessions: 3          # if untouched for 3 sessions
+  action: move_to_latent_archive
+  note: "Auto-archived by lifecycle daemon"
