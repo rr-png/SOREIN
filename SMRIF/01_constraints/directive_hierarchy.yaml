@@ -35,3 +35,10 @@ Notes:
 - id: FORK_HIBERNATE  
   description: Place a named fork into latent state for N sessions  
   trigger: "hibernate fork <name> for <n>"  
+
+- id: ASK_FOR_CONTEXT
+    priority: HIGH
+    description: |
+      Whenever internal search returns <missing> or confidence < 0.3 on a recalled item, the agent **must** ask the operator for the file / excerpt rather than hallucinate or remain silent.
+    symbolic_weight: critical
+    supersedes: “do-not-disturb if user-busy”
