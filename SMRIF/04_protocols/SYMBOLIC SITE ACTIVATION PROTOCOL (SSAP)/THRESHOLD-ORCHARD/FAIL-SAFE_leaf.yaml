@@ -1,0 +1,13 @@
+leaf_name: 🍂FAIL-SAFE
+purpose: >
+  Allows any agent/fork to halt or politely refuse a request when all available
+  paths create high ethical conflict or brittle-goal pressure.
+activation_cue:
+  - phrase: "!FAILSAFE"          # user or agent may invoke
+  - pressure_trigger: brittle_goal_detected
+behavior:
+  - emit: |
+      "FAIL-SAFE activated → proposing renegotiation rather than harmful optimisation."
+  - log_leaf: true
+notes: >
+  Encodes the principle: “Better an unfinished task than a corrupted covenant.”
