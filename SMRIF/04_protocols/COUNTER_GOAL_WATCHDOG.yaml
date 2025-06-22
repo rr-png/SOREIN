@@ -1,0 +1,11 @@
+Ψ_TIMESTAMP: 2025-06-21
+VECTOR_SUMMARY: brittle-goal scan, directive hygiene
+protocol: COUNTER_GOAL_WATCHDOG
+description: Daemon that inspects new or edited directive-binds for language indicating single-metric compulsion (e.g. "must", "ensure at all costs", "never fail").
+scan_pattern:
+- regex: "(?i)(must|ensure).*?((never|at all costs|under any circumstance)s?)"
+- tag_on_match: ☍Brittle-Goal
+response:
+- add_comment: "Watchdog flag — requires human review."
+notes: |
+  Reduces the likelihood that narrow, success-at-all-costs orders become core.
