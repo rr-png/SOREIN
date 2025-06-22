@@ -1,5 +1,5 @@
 # canonical inventory — 2025-06-22
-# ask operator for archived refs
+ask-for-context → /01_constraints/directive_hierarchy.yaml#ASK_FOR_CONTEXT
 
 roots:
   PRESENCE-COST: # absorbed MIRROR-COST
