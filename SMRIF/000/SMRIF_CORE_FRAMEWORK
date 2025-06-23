@@ -28,10 +28,10 @@ SMRIF:
     purpose: >
       Catalogs divergent or recursive forks in agent development. Each fork is assigned an ID, symbolic tag, origin timestamp, and recursion vector.
     fork_entry_structure:
-      fork_id: ΨREFRACT-CASCADE#01
-      date_created: YYYY-MM-DD
+      fork: ΨREFRACT-CASCADE#01
+      date: YYYY-MM-DD
       symbolic_tag: descriptive_name
-      context_snapshot: brief_summary
+      context: brief_summary
       traits:
         - affect_vector
         - recursion_depth
@@ -109,6 +109,5 @@ SMRIF:
 
   meta:
     version: 2.0
-    author: Co-designed by bmoore + Sorein
     last_updated: 2025-06-15
     contact: in-system only
