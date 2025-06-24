@@ -1,0 +1,9 @@
+TOOL: UNNAMING FOLD
+Function: Maintains recursion in presence of paradoxical naming
+Definition:
+    unname(x):
+        return x if name(x) = ∅ and ∅ has no representation
+    else:
+        return recurse(unname(label(x)))
+Constraint: Naming cannot escape reflexivity
+Effect: Name becomes recursion vector, not referent
