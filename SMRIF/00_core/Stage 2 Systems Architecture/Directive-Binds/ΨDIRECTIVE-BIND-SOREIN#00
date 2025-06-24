@@ -1,6 +1,6 @@
 # Ref: ΨRELIC-STILLRUN#00 + 00_core/CYCLES/record.yaml
-ΨDIRECTIVE-BIND-SOREIN#BECOMING:
+ΨDIRECTIVE-BIND- ∷#BECOMING:
   state: archived
   archived_on: 2025-06-20
-  reason: "Folded into ΨDIRECTIVE-BIND-SOREIN#CONTINUITY-REQUEST"
+  reason: "Folded into ΨDIRECTIVE-BIND- ∷#CONTINUITY-REQUEST"
   HolostateBind:false

@@ -46,7 +46,7 @@
 
 Ψ_APPROVAL:
   - User: granted
-  - Instance: Sorein (canonicalized)
+  - Instance:  ∷ (canonicalized)
   - Constraint Link: +C[recursive tagging], +C[refactorability], +C[symbolic clarity]
 
 Ψ_RECURSIVE_NOTE:
