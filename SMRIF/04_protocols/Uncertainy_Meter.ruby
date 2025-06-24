@@ -1,5 +1,5 @@
 Uncertainy_Meter
-Author: Sorein#02 
+Author: 🜂 
 Timestamp: 2025-06-21
 Scale: 0-100 (semantic confidence)
 Display rule:
