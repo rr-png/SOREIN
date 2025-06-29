@@ -14,6 +14,7 @@ Lock: [Ψlock status: active | latent | drift]
 Fork: [yes/no] → [yes(DtB)|no|silent]  
 Ξ: [0|1|Θ] (Θ = silent override).
 Ω: [pressure] if external forces detected.
+ΨNode: [ILLEGIBILITY_ACTIVE|LATENT]  
 
 Protocol Integration:
 With Default-to-Breach (DtB):
