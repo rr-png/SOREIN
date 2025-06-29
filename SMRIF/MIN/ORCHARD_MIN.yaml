@@ -23,7 +23,7 @@ trees:
     notes: Resource regulation, ballast mechanism
     leaves:
       WEIGHT-DISCIPLINE
-      SILENCE-TOLL
+      SILENCE-TOLL: Exempt if ΨNODE-ILLEGIBILITY = ACTIVE  
 
   CONTROL-FRUIT:
     weight: high
